@@ -1,10 +1,10 @@
 /* PolySans */
+
 @font-face {
     font-family: 'Polysans-Slim';
     src: url('../assets/fonts/PolySans/Polysans-Slim.woff2') format('woff2'),
         url('../assets/fonts/PolySans/Polysans-Slim.woff') format('woff'),
         url('../assets/fonts/PolySans/Polysans-Slim.ttf') format('truetype');
-    font-weight: 100;
     font-display: swap;
     font-style: normal;
 }
@@ -14,7 +14,6 @@
     src: url('../assets/fonts/PolySans/Polysans-Slim-Italic.woff2') format('woff2'),
         url('../assets/fonts/PolySans/Polysans-Slim-Italic.woff') format('woff'),
         url('../assets/fonts/PolySans/Polysans-Slim-Italic.ttf') format('truetype');
-    font-weight: 100;
     font-display: swap;
     font-style: normal;
 }
@@ -24,7 +23,6 @@
     src: url('../assets/fonts/PolySans/Polysans-Neutral.woff2') format('woff2'),
         url('../assets/fonts/PolySans/Polysans-Neutral.woff') format('woff'),
         url('../assets/fonts/PolySans/Polysans-Neutral.ttf') format('truetype');
-    font-weight: 100;
     font-display: swap;
     font-style: normal;
 }
@@ -34,7 +32,6 @@
     src: url('../assets/fonts/PolySans/Polysans-Neutral-Italic.woff2') format('woff2'),
         url('../assets/fonts/PolySans/Polysans-Neutral-Italic.woff') format('woff'),
         url('../assets/fonts/PolySans/Polysans-Neutral-Italic.ttf') format('truetype');
-    font-weight: 100;
     font-display: swap;
     font-style: normal;
 }
@@ -44,7 +41,6 @@
     src: url('../assets/fonts/PolySans/Polysans-Median.woff2') format('woff2'),
         url('../assets/fonts/PolySans/Polysans-Median.woff') format('woff'),
         url('../assets/fonts/PolySans/Polysans-Median.ttf') format('truetype');
-    font-weight: 100;
     font-display: swap;
     font-style: normal;
 }
@@ -54,7 +50,6 @@
     src: url('../assets/fonts/PolySans/Polysans-Median-Italic.woff2') format('woff2'),
         url('../assets/fonts/PolySans/Polysans-Median-Italic.woff') format('woff'),
         url('../assets/fonts/PolySans/Polysans-Median-Italic.ttf') format('truetype');
-    font-weight: 100;
     font-display: swap;
     font-style: normal;
 }
@@ -64,7 +59,6 @@
     src: url('../assets/fonts/PolySans/Polysans-Bulky.woff2') format('woff2'),
         url('../assets/fonts/PolySans/Polysans-Bulky.woff') format('woff'),
         url('../assets/fonts/PolySans/Polysans-Bulky.ttf') format('truetype');
-    font-weight: 100;
     font-display: swap;
     font-style: normal;
 }
@@ -74,7 +68,56 @@
     src: url('../assets/fonts/PolySans/Polysans-Bulky-Italic.woff2') format('woff2'),
         url('../assets/fonts/PolySans/Polysans-Bulky-Italic.woff') format('woff'),
         url('../assets/fonts/PolySans/Polysans-Bulky-Italic.ttf') format('truetype');
-    font-weight: 100;
     font-display: swap;
     font-style: normal;
 }
+
+/* --- */
+/* JetBrains */
+
+@font-face {
+    font-family: 'JetBrainsMono-Variable';
+    src: url('../fonts/JetBrainsMono-Variable.woff2') format('woff2'),
+        url('../fonts/JetBrainsMono-Variable.woff') format('woff'),
+        url('../fonts/JetBrainsMono-Variable.ttf') format('truetype');
+    font-weight: 100 800;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrainsMono-VariableItalic';
+    src: url('../fonts/JetBrainsMono-VariableItalic.woff2') format('woff2'),
+        url('../fonts/JetBrainsMono-VariableItalic.woff') format('woff'),
+        url('../fonts/JetBrainsMono-VariableItalic.ttf') format('truetype');
+    font-weight: 100 800;
+    font-display: swap;
+    font-style: italic;
+}
+
+/* --- */
+/* PJS */
+
+@font-face {
+    font-family: 'PlusJakartaSans-Variable';
+    src: url('../fonts/PlusJakartaSans-Variable.woff2') format('woff2'),
+        url('../fonts/PlusJakartaSans-Variable.woff') format('woff'),
+        url('../fonts/PlusJakartaSans-Variable.ttf') format('truetype');
+    font-weight: 200 800;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PlusJakartaSans-VariableItalic';
+    src: url('../fonts/PlusJakartaSans-VariableItalic.woff2') format('woff2'),
+        url('../fonts/PlusJakartaSans-VariableItalic.woff') format('woff'),
+        url('../fonts/PlusJakartaSans-VariableItalic.ttf') format('truetype');
+    font-weight: 200 800;
+    font-display: swap;
+    font-style: italic;
+}
+
+/* --- */
+/* Inter */
+
