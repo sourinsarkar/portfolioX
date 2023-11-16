@@ -4,7 +4,7 @@ import { ChevronDownIcon } from "@heroicons/react/24/outline"
 const GlobalNav: React.FC = () => {
     return (
         <div>
-            <div className="flex-generic justify-between ">
+            <div className="flex-generic justify-between">
                 <div>
                     <div className="flex-generic">
                         <div>
