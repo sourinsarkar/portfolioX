@@ -1,3 +1,8 @@
+:root{
+    --primary-font: 'PlusJakartaSans-Variable';
+    --primary-font-color: #27282C;
+}
+
 /* PolySans */
 
 @font-face {
@@ -77,9 +82,9 @@
 
 @font-face {
     font-family: 'JetBrainsMono-Variable';
-    src: url('../fonts/JetBrainsMono-Variable.woff2') format('woff2'),
-        url('../fonts/JetBrainsMono-Variable.woff') format('woff'),
-        url('../fonts/JetBrainsMono-Variable.ttf') format('truetype');
+    src: url('../assets/fonts/JetBrains/JetBrainsMono-Variable.woff2') format('woff2'),
+        url('../assets/fonts/JetBrains/JetBrainsMono-Variable.woff') format('woff'),
+        url('../assets/fonts/JetBrains/JetBrainsMono-Variable.ttf') format('truetype');
     font-weight: 100 800;
     font-display: swap;
     font-style: normal;
@@ -87,9 +92,9 @@
 
 @font-face {
     font-family: 'JetBrainsMono-VariableItalic';
-    src: url('../fonts/JetBrainsMono-VariableItalic.woff2') format('woff2'),
-        url('../fonts/JetBrainsMono-VariableItalic.woff') format('woff'),
-        url('../fonts/JetBrainsMono-VariableItalic.ttf') format('truetype');
+    src: url('../assets/fonts/JetBrains/JetBrainsMono-VariableItalic.woff2') format('woff2'),
+        url('../assets/fonts/JetBrains/JetBrainsMono-VariableItalic.woff') format('woff'),
+        url('../assets/fonts/JetBrains/JetBrainsMono-VariableItalic.ttf') format('truetype');
     font-weight: 100 800;
     font-display: swap;
     font-style: italic;
@@ -100,9 +105,9 @@
 
 @font-face {
     font-family: 'PlusJakartaSans-Variable';
-    src: url('../fonts/PlusJakartaSans-Variable.woff2') format('woff2'),
-        url('../fonts/PlusJakartaSans-Variable.woff') format('woff'),
-        url('../fonts/PlusJakartaSans-Variable.ttf') format('truetype');
+    src: url('../assets/fonts/PJS/PlusJakartaSans-Variable.woff2'),
+        url('../assets/fonts/PJS/PlusJakartaSans-Variable.woff') format('woff'),
+        url('../assets/fonts/PJS/PlusJakartaSans-Variable.ttf') format('truetype');
     font-weight: 200 800;
     font-display: swap;
     font-style: normal;
@@ -110,9 +115,9 @@
 
 @font-face {
     font-family: 'PlusJakartaSans-VariableItalic';
-    src: url('../fonts/PlusJakartaSans-VariableItalic.woff2') format('woff2'),
-        url('../fonts/PlusJakartaSans-VariableItalic.woff') format('woff'),
-        url('../fonts/PlusJakartaSans-VariableItalic.ttf') format('truetype');
+    src: url('../assets/fonts/PJS/PlusJakartaSans-VariableItalic.woff2') format('woff2'),
+        url('../assets/fonts/PJS/PlusJakartaSans-VariableItalic.woff') format('woff'),
+        url('../assets/fonts/PJS/PlusJakartaSans-VariableItalic.ttf') format('truetype');
     font-weight: 200 800;
     font-display: swap;
     font-style: italic;
@@ -121,3 +126,12 @@
 /* --- */
 /* Inter */
 
+/* --- */
+/* --- */
+/* --- */
+
+.primary-font{
+    font-family: var(--primary-font);
+    letter-spacing: -0.35px;
+    color: var(--primary-font-color);
+}

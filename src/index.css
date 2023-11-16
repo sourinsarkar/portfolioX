@@ -9,6 +9,6 @@
     }
 
     .list-elements > * {
-        @apply mx-4;
+        @apply mx-4 font-semibold text-sm;
     }
 }
