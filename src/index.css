@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+/* Global Navigation Bar */
+@layer components {
+    .flex-generic {
+        @apply flex items-center;
+    }
+
+    .list-elements > * {
+        @apply mx-4;
+    }
+}
