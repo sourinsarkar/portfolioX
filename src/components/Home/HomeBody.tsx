@@ -25,7 +25,7 @@ const HomeBody: React.FC = () => {
                                 <li><Twitter /></li>
                                 <li><Github /></li>
                                 <li>
-                                    <p>Download my <span>CV <Download /></span> </p>
+                                    <p>Download my <span>CV <Download /></span></p>
                                 </li>
                             </ul>
                         </div>
