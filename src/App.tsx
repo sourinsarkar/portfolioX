@@ -1,4 +1,5 @@
-import Home from "./layouts/Home";
+import Home from "./layouts/Home"
+import "./App.css"
 
 function App() {
 

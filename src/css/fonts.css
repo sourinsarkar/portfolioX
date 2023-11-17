@@ -105,7 +105,7 @@
 
 @font-face {
     font-family: 'PlusJakartaSans-Variable';
-    src: url('../assets/fonts/PJS/PlusJakartaSans-Variable.woff2'),
+    src: url('../assets/fonts/PJS/PlusJakartaSans-Variable.woff2'), format('woff2'),
         url('../assets/fonts/PJS/PlusJakartaSans-Variable.woff') format('woff'),
         url('../assets/fonts/PJS/PlusJakartaSans-Variable.ttf') format('truetype');
     font-weight: 200 800;
