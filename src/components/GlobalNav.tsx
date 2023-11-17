@@ -1,5 +1,4 @@
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
-// import { ChevronDown as SolidChevronDown } from "@heroicons/react/24/solid"
 
 const GlobalNav: React.FC = () => {
   return (
