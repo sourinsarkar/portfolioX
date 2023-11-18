@@ -13,6 +13,6 @@
     }
 
     .list-home-elements > * {
-        @apply mx-4;
+        @apply mx-3;
     }
 }
