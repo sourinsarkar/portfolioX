@@ -5,14 +5,14 @@ import { Twitter, Github } from 'iconoir-react'
 const HomeBody: React.FC = () => {
     return (
         <div>
-            <div>
-                <div>
+            <div className="flex justify-between">
+                <div className="w-full">
                     <div>
                         <img src={PrimeImage} alt="Photo" />
                     </div>
                 </div>
 
-                <div>
+                <div className="w-full">
                     <div>
                         <div>
                             <h1>Hi there,<br />Happy to have you.</h1>
