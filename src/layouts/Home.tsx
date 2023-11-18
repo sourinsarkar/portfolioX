@@ -4,7 +4,7 @@ import GlobalNav from "../components/Nav/GlobalNav";
 const Home: React.FC = () => {
     return (
         <div>
-            <div className="">
+            <div className="mx-12">
                 <div className="my-5">
                     <GlobalNav />
                 </div>
