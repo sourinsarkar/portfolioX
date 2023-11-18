@@ -27,7 +27,7 @@ const HomeBody: React.FC = () => {
                                 <li><HBIconProp><Github /></HBIconProp></li>
                                 <li className="flex items-center mono-font font-semibold">
                                     <p>Download my</p>
-                                    <button className="flex mx-2 px-5 py-2 rounded-full bg-[#27282C] text-[#FFFAFF]">CV <HBIconProp><Download color="#FFFAFF" /></HBIconProp></button>
+                                    <button className="flex mx-2 px-5 py-1.5 rounded-full bg-[#27282C] text-[#FFFAFF]">CV <HBIconProp><Download color="#FFFAFF" /></HBIconProp></button>
                                 </li>
                             </ul>
                         </div>
