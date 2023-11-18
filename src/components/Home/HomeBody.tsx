@@ -18,7 +18,7 @@ const HomeBody: React.FC = () => {
                         <div className="my-8">
                             <h1 className="text-5xl font-bold">Hi there,<br />Happy to have you.</h1>
                         </div>
-                        <div className="my-8 sub-font text-xl">
+                        <div className="my-8 sub-tight-font text-xl">
                             <p>A programming enthusiast with a knack for turning concepts into captivating solutions.</p>
                         </div>
                         <div className="my-8">
@@ -27,7 +27,7 @@ const HomeBody: React.FC = () => {
                                 <li><HBIconProp><Github /></HBIconProp></li>
                                 <li className="flex items-center mono-font font-semibold">
                                     <p>Download my</p>
-                                    <button className="flex mx-2 px-4 py-2 rounded-full bg-[#27282C] text-[#FFFAFF]">CV <HBIconProp><Download color="#FFFAFF" /></HBIconProp></button>
+                                    <button className="flex mx-2 px-5 py-2 rounded-full bg-[#27282C] text-[#FFFAFF]">CV <HBIconProp><Download color="#FFFAFF" /></HBIconProp></button>
                                 </li>
                             </ul>
                         </div>

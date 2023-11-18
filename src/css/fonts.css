@@ -1,6 +1,7 @@
 :root {
     --primary-font: 'PlusJakartaSans-Variable';
     --sub-font: 'Inter-Variable';
+    --sub-tight-font: 'InterTight-Variable';
     --primary-font-color: #27282C;
     --sub-font-color: #42434A;
     --momo-font: 'JetBrainsMono-Variable';
@@ -144,6 +145,16 @@
 
 @font-face {
     font-family: 'InterTight-Variable';
+    src: url('../assets/fonts/InterTight/InterTight-Variable.woff2') format('woff2'),
+        url('../assets/fonts/InterTight/InterTight-Variable.woff') format('woff'),
+        url('../assets/fonts/InterTight/InterTight-Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'InterTight-Italic-Variable';
     src: url('../assets/fonts/InterTight/InterTight-Italic-Variable.woff2') format('woff2'),
         url('../assets/fonts/InterTight/InterTight-Italic-Variable.woff') format('woff'),
         url('../assets/fonts/InterTight/InterTight-Italic-Variable.ttf') format('truetype');
@@ -164,6 +175,11 @@
 
 .sub-font {
     font-family: var(--sub-font);
+    color: var(--sub-font-color);
+}
+
+.sub-tight-font {
+    font-family: var(--sub-tight-font);
     color: var(--sub-font-color);
 }
 
