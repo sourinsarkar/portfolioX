@@ -5,7 +5,7 @@ import { Twitter, Github } from 'iconoir-react'
 const HomeBody: React.FC = () => {
     return (
         <div>
-            <div className="flex justify-between bg-green-400 primary-font">
+            <div className="flex justify-between primary-font">
                 <div className="w-full">
                     <div>
                         <img src={PrimeImage} alt="Photo" />
@@ -13,7 +13,7 @@ const HomeBody: React.FC = () => {
                 </div>
 
                 <div className="w-full flex items-center">
-                    <div className="bg-blue-400 mx-12">
+                    <div className="mx-12">
                         <div className="my-8">
                             <h1 className="text-5xl font-bold">Hi there,<br />Happy to have you.</h1>
                         </div>
