@@ -17,11 +17,11 @@ const HomeBody: React.FC = () => {
                         <div className="my-8">
                             <h1 className="text-5xl font-bold">Hi there,<br />Happy to have you.</h1>
                         </div>
-                        <div className="my-8">
+                        <div className="my-8 sub-font text-xl">
                             <p>A programming enthusiast with a knack for turning concepts into captivating solutions.</p>
                         </div>
                         <div className="my-8">
-                            <ul className="flex">
+                            <ul className="flex list-home-elements">
                                 <li><Twitter /></li>
                                 <li><Github /></li>
                                 <li className="flex">

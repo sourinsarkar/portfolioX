@@ -19,7 +19,7 @@ const GlobalNav: React.FC = () => {
 
         <div className="w-full">
           <div className="flex-generic justify-center">
-            <ul className="flex-generic list-elements bg-white">
+            <ul className="flex-generic list-nav-elements bg-white">
               <li>
                 <a href="/">Projects</a>
               </li>

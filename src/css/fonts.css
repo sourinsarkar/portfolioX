@@ -1,6 +1,8 @@
-:root{
+:root {
     --primary-font: 'PlusJakartaSans-Variable';
+    --sub-font: 'Inter-Variable';
     --primary-font-color: #27282C;
+    --sub-font-color: #42434A;
 }
 
 /* PolySans */
@@ -128,15 +130,38 @@
 
 @font-face {
     font-family: 'Inter-Variable';
-    src: url('../assets/fonts/Inter/Inter-VariableFont_slnt\,wght.woff2')
+    src: url('../assets/fonts/Inter/Inter-Variable.woff2') format('woff2'),
+        url('../assets/fonts/Inter/Inter-Variable.woff') format('woff'),
+        url('../assets/fonts/Inter/Inter-Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
+}
+
+/* --- */
+/* InterTight */
+
+@font-face {
+    font-family: 'InterTight-Variable';
+    src: url('../assets/fonts/InterTight/InterTight-Italic-Variable.woff2') format('woff2'),
+        url('../assets/fonts/InterTight/InterTight-Italic-Variable.woff') format('woff'),
+        url('../assets/fonts/InterTight/InterTight-Italic-Variable.ttf') format('truetype');
+    font-weight: 100 900;
+    font-display: swap;
+    font-style: normal;
 }
 
 /* --- */
 /* --- */
 /* --- */
 
-.primary-font{
+.primary-font {
     font-family: var(--primary-font);
     letter-spacing: -0.35px;
     color: var(--primary-font-color);
+}
+
+.sub-font {
+    font-family: var(--sub-font);
+    color: var(--sub-font-color);
 }

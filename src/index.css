@@ -8,7 +8,11 @@
         @apply flex items-center;
     }
 
-    .list-elements > * {
+    .list-nav-elements > * {
         @apply mx-4 font-semibold text-sm;
+    }
+
+    .list-home-elements > * {
+        @apply mx-4;
     }
 }
