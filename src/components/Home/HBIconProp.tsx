@@ -1,6 +1,5 @@
 import { IconoirProvider } from "iconoir-react/solid";
-
-type ReactNode = string| number| boolean| null| undefined;
+import { ReactNode } from 'react';
 
 const HBIconProp: React.FC<{ children: ReactNode }> = ({ children }) => {
   return (
