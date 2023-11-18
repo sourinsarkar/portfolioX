@@ -3,6 +3,7 @@
     --sub-font: 'Inter-Variable';
     --primary-font-color: #27282C;
     --sub-font-color: #42434A;
+    --momo-font: 'JetBrainsMono-Variable';
 }
 
 /* PolySans */
@@ -164,4 +165,9 @@
 .sub-font {
     font-family: var(--sub-font);
     color: var(--sub-font-color);
+}
+
+.mono-font {
+    font-family: var(--momo-font);
+    color: var(--primary-font-color);
 }
