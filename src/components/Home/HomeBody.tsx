@@ -1,5 +1,5 @@
 import { Download } from 'iconoir-react/regular';
-// import PrimeImage from '../../../Data/data.json'
+import PrimeImage from '../../../Data/data.json'
 import { Twitter, Github } from 'iconoir-react'
 import HBIconProp from './HBIconProp';
 
@@ -9,7 +9,7 @@ const HomeBody: React.FC = () => {
             <div className="flex justify-between primary-font">
                 <div className="w-full">
                     <div>
-                        {/* <img src={PrimeImage.image} alt="Photo" /> */}
+                        <img src={PrimeImage.image} alt="Photo" />
                     </div>
                 </div>
 
