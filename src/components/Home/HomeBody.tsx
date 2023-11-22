@@ -1,5 +1,5 @@
 import { Download } from 'iconoir-react/regular';
-import PrimeImage from '../../../Data/data.json'
+// import PrimeImage from '../../../Data/data.json'
 import { Twitter, Github } from 'iconoir-react'
 import HBIconProp from './HBIconProp';
 
