@@ -5,7 +5,7 @@ const GlobalNav: React.FC = () => {
     <div>
       <div className="primary-font flex-generic justify-between">
         <div className="w-full flex-generic">
-          <div className="bg-white ">
+          <div className="bg-white "> 
             <div>
               <h1 className="font-bold text-xl">
                 Sourin <span className="font-medium">Sarkar</span>
