@@ -11,72 +11,72 @@
 
 @font-face {
     font-family: 'Polysans-Slim';
-    src: url('./src/assets/fonts/PolySans/Polysans-Slim.woff2') format('woff2'),
-        url('./src/assets/fonts/PolySans/Polysans-Slim.woff') format('woff'),
-        url('./src/assets/fonts/PolySans/Polysans-Slim.ttf') format('truetype');
+    src: url('../assets/fonts/PolySans/Polysans-Slim.woff2') format('woff2'),
+        url('../assets/fonts/PolySans/Polysans-Slim.woff') format('woff'),
+        url('../assets/fonts/PolySans/Polysans-Slim.ttf') format('truetype');
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Polysans-Slim-Italic';
-    src: url('./src/assets/fonts/PolySans/Polysans-Slim-Italic.woff2') format('woff2'),
-        url('./src/assets/fonts/PolySans/Polysans-Slim-Italic.woff') format('woff'),
-        url('./src/assets/fonts/PolySans/Polysans-Slim-Italic.ttf') format('truetype');
+    src: url('../assets/fonts/PolySans/Polysans-Slim-Italic.woff2') format('woff2'),
+        url('../assets/fonts/PolySans/Polysans-Slim-Italic.woff') format('woff'),
+        url('../assets/fonts/PolySans/Polysans-Slim-Italic.ttf') format('truetype');
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Polysans-Neutral';
-    src: url('./src/assets/fonts/PolySans/Polysans-Neutral.woff2') format('woff2'),
-        url('./src/assets/fonts/PolySans/Polysans-Neutral.woff') format('woff'),
-        url('./src/assets/fonts/PolySans/Polysans-Neutral.ttf') format('truetype');
+    src: url('../assets/fonts/PolySans/Polysans-Neutral.woff2') format('woff2'),
+        url('../assets/fonts/PolySans/Polysans-Neutral.woff') format('woff'),
+        url('../assets/fonts/PolySans/Polysans-Neutral.ttf') format('truetype');
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Polysans-Neutral-Italic';
-    src: url('./src/assets/fonts/PolySans/Polysans-Neutral-Italic.woff2') format('woff2'),
-        url('./src/assets/fonts/PolySans/Polysans-Neutral-Italic.woff') format('woff'),
-        url('./src/assets/fonts/PolySans/Polysans-Neutral-Italic.ttf') format('truetype');
+    src: url('../assets/fonts/PolySans/Polysans-Neutral-Italic.woff2') format('woff2'),
+        url('../assets/fonts/PolySans/Polysans-Neutral-Italic.woff') format('woff'),
+        url('../assets/fonts/PolySans/Polysans-Neutral-Italic.ttf') format('truetype');
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Polysans-Median';
-    src: url('./src/assets/fonts/PolySans/Polysans-Median.woff2') format('woff2'),
-        url('./src/assets/fonts/PolySans/Polysans-Median.woff') format('woff'),
-        url('./src/assets/fonts/PolySans/Polysans-Median.ttf') format('truetype');
+    src: url('../assets/fonts/PolySans/Polysans-Median.woff2') format('woff2'),
+        url('../assets/fonts/PolySans/Polysans-Median.woff') format('woff'),
+        url('../assets/fonts/PolySans/Polysans-Median.ttf') format('truetype');
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Polysans-Median-Italic';
-    src: url('./src/assets/fonts/PolySans/Polysans-Median-Italic.woff2') format('woff2'),
-        url('./src/assets/fonts/PolySans/Polysans-Median-Italic.woff') format('woff'),
-        url('./src/assets/fonts/PolySans/Polysans-Median-Italic.ttf') format('truetype');
+    src: url('../assets/fonts/PolySans/Polysans-Median-Italic.woff2') format('woff2'),
+        url('../assets/fonts/PolySans/Polysans-Median-Italic.woff') format('woff'),
+        url('../assets/fonts/PolySans/Polysans-Median-Italic.ttf') format('truetype');
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Polysans-Bulky';
-    src: url('./src/assets/fonts/PolySans/Polysans-Bulky.woff2') format('woff2'),
-        url('./src/assets/fonts/PolySans/Polysans-Bulky.woff') format('woff'),
-        url('./src/assets/fonts/PolySans/Polysans-Bulky.ttf') format('truetype');
+    src: url('../assets/fonts/PolySans/Polysans-Bulky.woff2') format('woff2'),
+        url('../assets/fonts/PolySans/Polysans-Bulky.woff') format('woff'),
+        url('../assets/fonts/PolySans/Polysans-Bulky.ttf') format('truetype');
     font-display: swap;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'Polysans-Bulky-Italic';
-    src: url('./src/assets/fonts/PolySans/Polysans-Bulky-Italic.woff2') format('woff2'),
-        url('./src/assets/fonts/PolySans/Polysans-Bulky-Italic.woff') format('woff'),
-        url('./src/assets/fonts/PolySans/Polysans-Bulky-Italic.ttf') format('truetype');
+    src: url('../assets/fonts/PolySans/Polysans-Bulky-Italic.woff2') format('woff2'),
+        url('../assets/fonts/PolySans/Polysans-Bulky-Italic.woff') format('woff'),
+        url('../assets/fonts/PolySans/Polysans-Bulky-Italic.ttf') format('truetype');
     font-display: swap;
     font-style: normal;
 }
@@ -86,9 +86,9 @@
 
 @font-face {
     font-family: 'JetBrainsMono-Variable';
-    src: url('./src/assets/fonts/JetBrains/JetBrainsMono-Variable.woff2') format('woff2'),
-        url('./src/assets/fonts/JetBrains/JetBrainsMono-Variable.woff') format('woff'),
-        url('./src/assets/fonts/JetBrains/JetBrainsMono-Variable.ttf') format('truetype');
+    src: url('../assets/fonts/JetBrains/JetBrainsMono-Variable.woff2') format('woff2'),
+        url('../assets/fonts/JetBrains/JetBrainsMono-Variable.woff') format('woff'),
+        url('../assets/fonts/JetBrains/JetBrainsMono-Variable.ttf') format('truetype');
     font-weight: 100 800;
     font-display: swap;
     font-style: normal;
@@ -96,9 +96,9 @@
 
 @font-face {
     font-family: 'JetBrainsMono-VariableItalic';
-    src: url('./src/assets/fonts/JetBrains/JetBrainsMono-VariableItalic.woff2') format('woff2'),
-        url('./src/assets/fonts/JetBrains/JetBrainsMono-VariableItalic.woff') format('woff'),
-        url('./src/assets/fonts/JetBrains/JetBrainsMono-VariableItalic.ttf') format('truetype');
+    src: url('../assets/fonts/JetBrains/JetBrainsMono-VariableItalic.woff2') format('woff2'),
+        url('../assets/fonts/JetBrains/JetBrainsMono-VariableItalic.woff') format('woff'),
+        url('../assets/fonts/JetBrains/JetBrainsMono-VariableItalic.ttf') format('truetype');
     font-weight: 100 800;
     font-display: swap;
     font-style: italic;
@@ -109,9 +109,9 @@
 
 @font-face {
     font-family: 'PlusJakartaSans-Variable';
-    src: url('./src/assets/fonts/PJS/PlusJakartaSans-Variable.woff2'), format('woff2'),
-        url('./src/assets/fonts/PJS/PlusJakartaSans-Variable.woff') format('woff'),
-        url('./src/assets/fonts/PJS/PlusJakartaSans-Variable.ttf') format('truetype');
+    src: url('../assets/fonts/PJS/PlusJakartaSans-Variable.woff2'), format('woff2'),
+        url('../assets/fonts/PJS/PlusJakartaSans-Variable.woff') format('woff'),
+        url('../assets/fonts/PJS/PlusJakartaSans-Variable.ttf') format('truetype');
     font-weight: 200 800;
     font-display: swap;
     font-style: normal;
@@ -119,9 +119,9 @@
 
 @font-face {
     font-family: 'PlusJakartaSans-VariableItalic';
-    src: url('./src/assets/fonts/PJS/PlusJakartaSans-VariableItalic.woff2') format('woff2'),
-        url('./src/assets/fonts/PJS/PlusJakartaSans-VariableItalic.woff') format('woff'),
-        url('./src/assets/fonts/PJS/PlusJakartaSans-VariableItalic.ttf') format('truetype');
+    src: url('../assets/fonts/PJS/PlusJakartaSans-VariableItalic.woff2') format('woff2'),
+        url('../assets/fonts/PJS/PlusJakartaSans-VariableItalic.woff') format('woff'),
+        url('../assets/fonts/PJS/PlusJakartaSans-VariableItalic.ttf') format('truetype');
     font-weight: 200 800;
     font-display: swap;
     font-style: italic;
@@ -132,9 +132,9 @@
 
 @font-face {
     font-family: 'Inter-Variable';
-    src: url('./src/assets/fonts/Inter/Inter-Variable.woff2') format('woff2'),
-        url('./src/assets/fonts/Inter/Inter-Variable.woff') format('woff'),
-        url('./src/assets/fonts/Inter/Inter-Variable.ttf') format('truetype');
+    src: url('../assets/fonts/Inter/Inter-Variable.woff2') format('woff2'),
+        url('../assets/fonts/Inter/Inter-Variable.woff') format('woff'),
+        url('../assets/fonts/Inter/Inter-Variable.ttf') format('truetype');
     font-weight: 100 900;
     font-display: swap;
     font-style: normal;
@@ -145,9 +145,9 @@
 
 @font-face {
     font-family: 'InterTight-Variable';
-    src: url('./src/assets/fonts/InterTight/InterTight-Variable.woff2') format('woff2'),
-        url('./src/assets/fonts/InterTight/InterTight-Variable.woff') format('woff'),
-        url('./src/assets/fonts/InterTight/InterTight-Variable.ttf') format('truetype');
+    src: url('../assets/fonts/InterTight/InterTight-Variable.woff2') format('woff2'),
+        url('../assets/fonts/InterTight/InterTight-Variable.woff') format('woff'),
+        url('../assets/fonts/InterTight/InterTight-Variable.ttf') format('truetype');
     font-weight: 100 900;
     font-display: swap;
     font-style: normal;
@@ -155,9 +155,9 @@
 
 @font-face {
     font-family: 'InterTight-Italic-Variable';
-    src: url('./src/assets/fonts/InterTight/InterTight-Italic-Variable.woff2') format('woff2'),
-        url('./src/assets/fonts/InterTight/InterTight-Italic-Variable.woff') format('woff'),
-        url('./src/assets/fonts/InterTight/InterTight-Italic-Variable.ttf') format('truetype');
+    src: url('../assets/fonts/InterTight/InterTight-Italic-Variable.woff2') format('woff2'),
+        url('../assets/fonts/InterTight/InterTight-Italic-Variable.woff') format('woff'),
+        url('../assets/fonts/InterTight/InterTight-Italic-Variable.ttf') format('truetype');
     font-weight: 100 900;
     font-display: swap;
     font-style: normal;
