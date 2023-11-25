@@ -26,7 +26,7 @@ const HomeBody: React.FC = () => {
                             <li><a href="https://github.com/sourinsarkar" target="_blank" title="Github"><HBIconProp><Github /></HBIconProp></a> </li>
                             <li className="flex items-center mono-font font-semibold">
                                 <p>Download my</p>
-                                <a href="/resume/resume.pdf" download className="flex mx-2 px-5 py-1.5 rounded-full bg-[#27282C] text-white">CV <HBIconProp><Download color="white" /></HBIconProp></a>
+                                <a href="/resume/resume.pdf" download className="flex mx-2 px-5 py-2 rounded-full bg-[#27282C] text-white">CV <HBIconProp><Download color="white" /></HBIconProp></a>
                             </li>
                         </ul>
                     </div>

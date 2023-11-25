@@ -36,7 +36,7 @@ const GlobalNav: React.FC = () => {
         <div className="w-full">
           <div className="flex-generic justify-end">
             <div>
-              <button className="leading-none px-4 py-3 rounded-full bg-[#27282C] text-white font-medium text-sm">Reach me</button>
+              <a href="mailto:Sourin Sarkar <work@sourin.in>" className="leading-none px-4 py-3 rounded-full bg-[#27282C] text-white font-medium text-sm">Reach me</a>
             </div>
           </div>
         </div>
