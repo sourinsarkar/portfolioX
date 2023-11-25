@@ -22,11 +22,11 @@ const HomeBody: React.FC = () => {
                     </div>
                     <div className="my-8">
                         <ul className="flex items-center list-home-elements">
-                            <li><HBIconProp><Twitter /></HBIconProp></li>
-                            <li><HBIconProp><Github /></HBIconProp></li>
+                            <li><a href="https://twitter.com/sourin_inc" target="_blank" title="Twitter"><HBIconProp><Twitter /></HBIconProp></a> </li>
+                            <li><a href="https://github.com/sourinsarkar" target="_blank" title="Github"><HBIconProp><Github /></HBIconProp></a> </li>
                             <li className="flex items-center mono-font font-semibold">
                                 <p>Download my</p>
-                                <button className="flex mx-2 px-5 py-1.5 rounded-full bg-[#27282C] text-white">CV <HBIconProp><Download color="white" /></HBIconProp></button>
+                                <a href="/resume/resume.pdf" download className="flex mx-2 px-5 py-1.5 rounded-full bg-[#27282C] text-white">CV <HBIconProp><Download color="white" /></HBIconProp></a>
                             </li>
                         </ul>
                     </div>
