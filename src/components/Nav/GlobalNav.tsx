@@ -5,7 +5,7 @@ const GlobalNav: React.FC = () => {
     <div>
       <div className="primary-font flex-generic justify-between">
         <div className="w-full flex-generic">
-          <div className="bg-white "> 
+          <div> 
             <div>
               <h1 className="font-bold text-xl">
                 Sourin <span className="font-medium">Sarkar</span>
@@ -19,7 +19,7 @@ const GlobalNav: React.FC = () => {
 
         <div className="w-full">
           <div className="flex-generic justify-center">
-            <ul className="flex-generic list-nav-elements bg-white">
+            <ul className="flex-generic list-nav-elements font-medium text-sm">
               <li>
                 <a href="/">Projects</a>
               </li>
@@ -35,8 +35,8 @@ const GlobalNav: React.FC = () => {
 
         <div className="w-full">
           <div className="flex-generic justify-end">
-            <div className="text-sm px-3 py-2 text-[#0055ff] bg-[#C9DBFF] rounded-lg font-semibold">
-              <button>Reach me</button>
+            <div>
+              <button className="leading-none px-4 py-3 rounded-full bg-[#27282C] text-white font-medium text-sm">Reach me</button>
             </div>
           </div>
         </div>

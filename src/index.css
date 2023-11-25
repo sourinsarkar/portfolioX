@@ -9,7 +9,7 @@
     }
 
     .list-nav-elements > * {
-        @apply mx-4 font-semibold text-sm;
+        @apply mx-4;
     }
 
     .list-home-elements > * {
