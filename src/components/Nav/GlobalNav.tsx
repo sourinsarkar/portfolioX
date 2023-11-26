@@ -1,23 +1,23 @@
-import { ChevronDownIcon } from "@heroicons/react/24/outline";
+import { ChevronDownIcon } from "@heroicons/react/24/solid";
 
 const GlobalNav: React.FC = () => {
   return (
     <div>
       <div className="primary-font flex-generic justify-between">
         <div className="w-full flex-generic">
-          <div> 
+          <div className="flex items-center gap-1"> 
             <div>
-              <h1 className="font-bold text-xl">
+              <h1 className="font-bold xl:text-2xl">
                 Sourin <span className="font-medium">Sarkar</span>
               </h1>
             </div>
             <div className="sm:hidden">
-              <ChevronDownIcon className="h-6 w-6 text-black" />
+              <ChevronDownIcon className="h-4 w-4 text-primary-color" stroke="currentColor" stroke-width="0.8" />
             </div>
           </div>
         </div>
 
-        <div className="w-full">
+        <div className="w-full hidden">
           <div className="flex-generic justify-center">
             <ul className="flex-generic list-nav-elements font-medium text-sm">
               <li>
@@ -35,8 +35,8 @@ const GlobalNav: React.FC = () => {
 
         <div className="w-full">
           <div className="flex-generic justify-end">
-            <div>
-              <a href="mailto:Sourin Sarkar <work@sourin.in>" className="leading-none px-4 py-3 rounded-full bg-[#27282C] text-white font-medium text-sm">Reach me</a>
+            <div className="flex items-center justify-center">
+              <a href="mailto:Sourin Sarkar <work@sourin.in>" className="px-4 py-1.5 xl:px-4 xl:py-3 text-sm rounded-full bg-primary-color text-white ">Reach me</a>
             </div>
           </div>
         </div>
