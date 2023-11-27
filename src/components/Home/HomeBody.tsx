@@ -26,7 +26,7 @@ const HomeBody: React.FC = () => {
                             <li><a href="https://github.com/sourinsarkar" target="_blank" title="Github"><i className="ri-github-fill text-3xl xl:text-[2.5em] p-2 text-primary-color"></i></a> </li>
                             <li className="flex items-center mono-font font-semibold text-sm xl:text-base p-2 text-primary-color">
                                 <p>Download my</p>
-                                <a href="/resume/resume.pdf" download className="flex items-center mx-2 px-4 py-1.5 xl:px-5 xl:py-2 rounded-full bg-primary-color text-white gap-1">CV <ArrowDownTrayIcon stroke="currentColor" stroke-width="0.5" className="h-5 w-5" /> </a>
+                                <a href="/resume/resume.pdf" download className="flex items-center mx-2 px-4 py-1.5 xl:px-5 4xl:py-2 rounded-full bg-primary-color text-white gap-1">Resume <ArrowDownTrayIcon stroke="currentColor" stroke-width="0.5" className="h-4 w-4" /> </a>
                             </li>
                         </ul>
                     </div>
