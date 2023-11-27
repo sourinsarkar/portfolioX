@@ -30,9 +30,11 @@ const HomeBody: React.FC = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className="xl:hidden flex justify-center items-center rounded-lg py-2 bg-primary-color text-white text-sm font-medium max-w-[300px] mx-auto">
-                        <a href="mailto:Sourin Sarkar <work@sourin.in>">Contact here</a>
-                    </div>
+                    <a href="mailto:Sourin Sarkar <work@sourin.in>">
+                        <div className="xl:hidden flex justify-center items-center rounded-lg py-2 bg-primary-color text-white text-sm font-medium max-w-[300px] mx-auto">
+                        Contact here
+                        </div>
+                    </a>
                     <div className="xl:hidden">
                         <img src={CarGif} className="h-24 my-4 mx-auto" />
                     </div>
