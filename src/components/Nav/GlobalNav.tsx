@@ -11,13 +11,10 @@ const GlobalNav: React.FC = () => {
                 Sourin <span className="font-medium">Sarkar</span>
               </h1>
             </div>
-            <div className="sm:hidden">
-              <ChevronDownIcon className="h-4 w-4 text-primary-color" stroke="currentColor" stroke-width="0.8" />
-            </div>
           </div>
         </div>
 
-        <div className="w-full hidden">
+        <div className="w-full hidden xl:inline">
           <div className="flex-generic justify-center">
             <ul className="flex-generic list-nav-elements font-medium text-sm">
               <li>
@@ -34,6 +31,14 @@ const GlobalNav: React.FC = () => {
         </div>
 
         <div className="w-full">
+          <div className="flex justify-end">
+            <div className="sm:hidden">
+              <ChevronDownIcon className="h-4 w-4 text-primary-color" stroke="currentColor" stroke-width="0.8" />
+            </div>
+          </div>
+        </div>
+
+        <div className="w-full hidden xl:inline">
           <div className="flex-generic justify-end">
             <div className="flex items-center justify-center">
               <a href="mailto:Sourin Sarkar <work@sourin.in>" className="px-4 py-1.5 xl:px-4 xl:py-3 text-sm rounded-full bg-primary-color text-white ">Reach me</a>
