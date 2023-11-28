@@ -31,8 +31,8 @@ const HomeBody: React.FC = () => {
                         </ul>
                     </div>
                     <a href="mailto:Sourin Sarkar <work@sourin.in>">
-                        <div className="xl:hidden flex justify-center items-center rounded-lg py-2 bg-primary-color text-white text-sm font-medium max-w-[300px] mx-auto">
-                        Contact here
+                        <div className="xl:hidden flex justify-center items-center rounded-lg py-2 bg-primary-color text-white font-medium max-w-[300px] mx-auto">
+                        Reach here
                         </div>
                     </a>
                     <div className="xl:hidden">
