@@ -17,8 +17,8 @@ const HomeBody: React.FC = () => {
                     <div>
                         <h1 className="text-3xl mq-4:text-4xl xl:text-5xl font-bold">Hi there,<br />Happy to have you.</h1>
                     </div>
-                    <div className="my-3 mx-2 xl:mx-0 xl:my-8 sub-font mq-4:text-lg xl:text-xl">
-                        <p>A programming enthusiast with a knack for turning concepts into captivating solutions.</p>
+                    <div className="mt-5 xl:mt-0 mx-2 xl:mx-0 xl:my-8 sub-font mq-4:text-lg xl:text-xl">
+                        <p className="leading-6">A programming enthusiast with a knack for turning concepts into captivating solutions.</p>
                     </div>
                     <div className="my-8 flex justify-center items-center xl:justify-start">
                         <ul className="flex items-center">
