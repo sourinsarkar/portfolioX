@@ -1,4 +1,4 @@
-import { ChevronDownIcon } from "@heroicons/react/24/solid";
+import { ChevronDownIcon } from "@heroicons/react/24/outline";
 
 const GlobalNav: React.FC = () => {
   return (
@@ -7,7 +7,7 @@ const GlobalNav: React.FC = () => {
         <div className="w-full flex-generic">
           <div className="flex items-center gap-1"> 
             <div>
-              <h1 className="font-bold xl:text-xl">
+              <h1 className="font-bold mq-4:text-xl">
                 Sourin <span className="font-medium">Sarkar</span>
               </h1>
             </div>
@@ -33,7 +33,7 @@ const GlobalNav: React.FC = () => {
         <div className="w-full xl:hidden">
           <div className="flex justify-end">
             <div className="sm:hidden">
-              <ChevronDownIcon className="h-4 w-4 text-primary-color" stroke="currentColor" stroke-width="0.8" />
+              <ChevronDownIcon className="h-4 w-4 mq-4:h-5 mq-4:w-5 text-primary-color" stroke="currentColor" stroke-width="2" />
             </div>
           </div>
         </div>
