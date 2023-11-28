@@ -12,8 +12,8 @@ const HomeBody: React.FC = () => {
                 </div>
             </div>
 
-            <div className="w-full flex xl:items-center mt-8 xl:mt-0">
-                <div className="text-center xl:text-left">
+            <div className="w-full flex items-center mt-8 xl:mt-0">
+                <div className="text-center xl:text-left mx-auto">
                     <div>
                         <h1 className="text-3xl mq-4:text-4xl xl:text-5xl font-bold">Hi there,<br />Happy to have you.</h1>
                     </div>
