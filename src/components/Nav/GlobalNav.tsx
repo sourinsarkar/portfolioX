@@ -41,7 +41,7 @@ const GlobalNav: React.FC = () => {
         <div className="w-full hidden xl:block">
           <div className="flex-generic justify-end">
             <div className="flex items-center justify-center">
-              <a href="mailto:Sourin Sarkar <work@sourin.in>" className="leading-none px-4 py-1.5 xl:px-4 xl:py-3 text-sm font-medium rounded-full bg-primary-color text-white ">Reach me</a>
+              <a href="mailto:Sourin Sarkar <mail@sourin.in>" className="leading-none px-4 py-1.5 xl:px-4 xl:py-3 text-sm font-medium rounded-full bg-primary-color text-white ">Reach me</a>
             </div>
           </div>
         </div>
