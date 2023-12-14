@@ -1,5 +1,4 @@
 import { ChevronDownIcon } from "@heroicons/react/24/outline";
-import { navDropDown } from "./navFunctions";
 
 const GlobalNav: React.FC = () => {
 
@@ -37,7 +36,7 @@ const GlobalNav: React.FC = () => {
         {/* Dropdown */}
         <div className="w-full xl:hidden">
           <div className="flex justify-end">
-            <div className="sm:hidden" onClick={navDropDown}>
+            <div className="sm:hidden">
               <ChevronDownIcon className="h-4 w-4 mq-4:h-5 mq-4:w-5 text-primary-color" stroke="currentColor" stroke-width="2" />
             </div>
           </div>
