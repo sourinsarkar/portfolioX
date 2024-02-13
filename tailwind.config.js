@@ -1,3 +1,5 @@
+const colors = require('./colors');
+
 /** @type {import('tailwindcss').Config} */
 export default {
   content: [
@@ -6,14 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      colors: colors,
       screens: {
         'mq-4': '400px',
-      },
-      boxShadow: {
-        'shdw-1': ['0px 2px 3px 0px rgba(0, 0, 0, 0.25)'],
-      },
-      colors: {
-        'primary-color': '#27282C',
       },
     },
   },
