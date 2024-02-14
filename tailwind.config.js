@@ -10,7 +10,7 @@ export default {
     extend: {
       colors: colors,
       screens: {
-        'mq-4': '400px',
+        'mid-lg': '832px',
       },
     },
   },
