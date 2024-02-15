@@ -1,5 +1,6 @@
 import { ChatBubbleOvalLeftIcon } from "@heroicons/react/24/solid";
 import LotusImage from "../assets/images/lotus.png"
+import HaraDharaImage from "../assets/images/hara_dhara.svg"
 import HznlCtn from "../utils/Horizontal_Small_Container";
 
 const Content: React.FC = () => {
@@ -65,28 +66,66 @@ const Content: React.FC = () => {
                 </div>
                 <div className="my-6">
                     <div className="mt-7 mb-5"><h3 className="primary-font font-bold text-xl tracking-tight leading-snug text-blueInk-8x">Programming languages</h3></div>
-                    <div className="flex flex-wrap space-x-2.5 space-y-2.5">
-                        <HznlCtn skill="C++" />
-                        <HznlCtn skill="TypeScript" />
-                        <HznlCtn skill="JavaScript" />
-                        <HznlCtn skill="SQL" />
-                        <HznlCtn skill="HTML" />
-                        <HznlCtn skill="CSS" />
+                    <div className="flex flex-wrap gap-2">
+                        <HznlCtn content="C++" />
+                        <HznlCtn content="TypeScript" />
+                        <HznlCtn content="JavaScript" />
+                        <HznlCtn content="SQL" />
+                        <HznlCtn content="HTML" />
+                        <HznlCtn content="CSS" />
                     </div>
                     <div className="mt-7 mb-5"><h3 className="primary-font font-bold text-xl tracking-tight leading-snug text-green-8x">Software and technologies</h3></div>
-                    <div className="flex flex-wrap space-x-2.5 space-y-2.5">
-                        <HznlCtn skill="React.js" />
-                        <HznlCtn skill="Node.js" />
-                        <HznlCtn skill="Express.js" />
-                        <HznlCtn skill="MongoDB" />
-                        <HznlCtn skill="Mongoose" />
-                        <HznlCtn skill="Git" />
-                        <HznlCtn skill="GitHub" />
-                        <HznlCtn skill="MySQL" />
-                        <HznlCtn skill="Postman" />
-                        <HznlCtn skill="Linux" />
-                        <HznlCtn skill="Figma" />
-                        <HznlCtn skill="Vercel" />
+                    <div className="flex flex-wrap gap-2">
+                        <HznlCtn content="React.js" />
+                        <HznlCtn content="Node.js" />
+                        <HznlCtn content="Express.js" />
+                        <HznlCtn content="MongoDB" />
+                        <HznlCtn content="Mongoose" />
+                        <HznlCtn content="Git" />
+                        <HznlCtn content="GitHub" />
+                        <HznlCtn content="MySQL" />
+                        <HznlCtn content="Postman" />
+                        <HznlCtn content="Linux" />
+                        <HznlCtn content="Figma" />
+                        <HznlCtn content="Vercel" />
+                    </div>
+                </div>
+                <div className="mt-12 flex flex-col space-y-2">
+                    <div className="flex justify-start">
+                        <div className="relative text-sm sub-font leading-tight pl-6 pr-4 py-3 bg-blueL-1x rounded-2xl max-w-fit text-blueD-10x">
+                            <div className='absolute left-[-5%] top-[-15%]'>
+                                <ChatBubbleOvalLeftIcon className="w-10 h-10 text-blueInk-8x" />
+                            </div>
+                            <p>Tell me one <span className="font-medium text-blue-10x">fun fact</span> about<br />any programming <span className="font-medium text-blue-10x">language</span><br />you’ve <span className="font-medium text-blue-10x">mentioned</span>.</p>
+                        </div>
+                    </div>
+                    <div className="flex justify-end">
+                        <div className="text-sm sub-font leading-tight px-4 py-3 bg-blueL-1x rounded-2xl max-w-fit text-blueD-10x">
+                            <p>How much is <span className="font-medium text-blue-10x">1 + '1' - 1</span>?<br />Confused?<br />That's <span className="font-medium text-blue-10x">JavaScript 😀.</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <div className="mt-15">
+                        <img src={HaraDharaImage} alt="Hara Dhara" className="w-auto h-12 m-auto" />
+                        <p className="text-center sub-font text-blueD-10x mt-5">An initiative taken on a personal capacity to plant a plant.</p>
+                    </div>
+                    <div className="flex flex-col mt-12">
+                        <h3 className="text-center primary-font font-extrabold text-8xl tracking-tight leading-none text-blue-10x">129</h3>
+                        <div className="mx-auto mt-3"><HznlCtn content="Planted till date." /></div>
+                    </div>
+                </div>
+                <div>
+                    <div className="mt-15">
+                        <img src={HaraDharaImage} alt="Hara Dhara" className="w-auto h-12 m-auto" />
+                        <p className="text-center sub-font text-blueD-10x mt-5">This year’s total public contributions on GitHub.</p>
+                    </div>
+                    <div className="flex flex-col mt-12">
+                        <h3 className="text-center primary-font font-extrabold text-8xl tracking-tight leading-none text-blue-10x">129</h3>
+                        <div className="mx-auto mt-3"><HznlCtn content="Planted till date." /></div>
                     </div>
                 </div>
             </div>
