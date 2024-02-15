@@ -1,7 +1,7 @@
 import { ChatBubbleOvalLeftIcon } from "@heroicons/react/24/solid";
 import LotusImage from "../assets/images/lotus.png"
 import HaraDharaImage from "../assets/images/hara_dhara.svg"
-import HznlCtn from "../utils/Horizontal_Small_Container";
+import HznlCtn from "../utils/Horizontal_Small_Container"
 
 const Content: React.FC = () => {
     return (
@@ -120,11 +120,11 @@ const Content: React.FC = () => {
                 </div>
                 <div>
                     <div className="mt-15">
-                        <img src={HaraDharaImage} alt="Hara Dhara" className="w-auto h-12 m-auto" />
+                        
                         <p className="text-center sub-font text-blueD-10x mt-5">This year’s total public contributions on GitHub.</p>
                     </div>
                     <div className="flex flex-col mt-12">
-                        <h3 className="text-center primary-font font-extrabold text-8xl tracking-tight leading-none text-blue-10x">129</h3>
+                        <h3 className="text-center primary-font font-extrabold text-8xl tracking-tight leading-none text-blue-10x">328</h3>
                         <div className="mx-auto mt-3"><HznlCtn content="Planted till date." /></div>
                     </div>
                 </div>
