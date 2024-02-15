@@ -1,9 +1,9 @@
-import { ChatBubbleOvalLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
+import { ChatBubbleOvalLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid"
 import LotusImage from "../assets/images/lotus.png"
 import HaraDharaImage from "../assets/images/hara_dhara.svg"
-import HznlCtn from "../utils/Horizontal_Small_Container"
-import { RiGithubFill } from "@remixicon/react";
-import PrjShowCtn from "../utils/Projects_Showcase_Container";
+import { HznlCtn, SmHznlCtn } from "../utils/Horizontal_Small_Container"
+import { RiGithubFill } from "@remixicon/react"
+import PrjShowCtn from "../utils/Projects_Showcase_Container"
 
 const Content: React.FC = () => {
     return (
@@ -145,13 +145,7 @@ const Content: React.FC = () => {
 
             {/* Projects */}
             <div>
-                <div className="mt-15">
-                    <h1 className="primary-font font-bold text-3.5xl tracking-tight leading-snug text-blue-10x">Things<br />I have built</h1>
-                </div>
-                <div className="mt-5">
-                    <p className="sub-font text-blueD-10x">These projects have taken days to complete. Don’t just view code but use and experience them.</p>
-                </div>
-                <PrjShowCtn />
+                <PrjShowCtn title
             </div>
         </div>
    );
