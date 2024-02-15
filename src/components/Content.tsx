@@ -1,7 +1,7 @@
 import { ChatBubbleOvalLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid"
 import LotusImage from "../assets/images/lotus.png"
 import HaraDharaImage from "../assets/images/hara_dhara.svg"
-import { HznlCtn, SmHznlCtn } from "../utils/Horizontal_Small_Container"
+import { HznlCtn } from "../utils/Horizontal_Small_Container"
 import { RiGithubFill } from "@remixicon/react"
 import PrjShowCtn from "../utils/Projects_Showcase_Container"
 
