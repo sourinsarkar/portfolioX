@@ -51,7 +51,6 @@
 
 .primary-font {
     font-family: var(--primary-font);
-    letter-spacing: -0.35px;
 }
 
 .sub-font {

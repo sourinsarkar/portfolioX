@@ -8,7 +8,7 @@ export default {
     blueD: {
         '10x': '#425466',
     },
-    BlueInk: {
+    blueInk: {
         '8x': '#0055ff',
     }
 };
