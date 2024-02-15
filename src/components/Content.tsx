@@ -1,7 +1,8 @@
-import { ChatBubbleOvalLeftIcon } from "@heroicons/react/24/solid";
+import { ChatBubbleOvalLeftIcon, ChevronRightIcon } from "@heroicons/react/20/solid";
 import LotusImage from "../assets/images/lotus.png"
 import HaraDharaImage from "../assets/images/hara_dhara.svg"
 import HznlCtn from "../utils/Horizontal_Small_Container"
+import { RiGithubFill } from "@remixicon/react";
 
 const Content: React.FC = () => {
     return (
@@ -120,12 +121,19 @@ const Content: React.FC = () => {
                 </div>
                 <div>
                     <div className="mt-15">
-                        
+                        <div className="flex justify-center items-center space-x-1">
+                            <RiGithubFill size={40} className="text-blue-10x" />
+                            <h3 className="primary-font font-bold text-xl tracking-tight leading-snug text-blue-10x">Contributions</h3>
+                        </div>
                         <p className="text-center sub-font text-blueD-10x mt-5">This year’s total public contributions on GitHub.</p>
                     </div>
                     <div className="flex flex-col mt-12">
                         <h3 className="text-center primary-font font-extrabold text-8xl tracking-tight leading-none text-blue-10x">328</h3>
-                        <div className="mx-auto mt-3"><HznlCtn content="Planted till date." /></div>
+                        <div className="mx-auto mt-3">
+                            <div>
+                                <h4 className="text-sm sub-font leading-none px-3.5 py-2 bg-blue-10x rounded-full max-w-fit text-[#EEE] space-x-1 flex items-center">Take me to Github <span><ChevronRightIcon className="w-5 h-6" /></span></h4>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
