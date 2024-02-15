@@ -5,7 +5,7 @@ import SourinIcon from "../assets/images/sourin_icon_svg.svg"
 
 const Navbar: React.FC = () => {
     return (
-        <div className="my-6 mx-1.5 leading-none">
+        <div className="my-6 leading-none">
             <div className="flex justify-between items-center">
                 <div>
                     <div><img src={SourinIcon} alt="Sourin Logo" className="w-8 h-8" /></div>
@@ -22,7 +22,7 @@ const Navbar: React.FC = () => {
 
                 <div>
                     <button hidden>Contact me</button>
-                    <div className="px-4 py-1 rounded-full bg-blueL-1x"><Bars2Icon className="w-6 h-6 text-blue-10x"/></div>
+                    <div className="px-3 py-1 rounded-full bg-blueL-1x"><Bars2Icon className="w-6 h-6 text-blue-10x"/></div>
                 </div>
             </div>
         </div>
