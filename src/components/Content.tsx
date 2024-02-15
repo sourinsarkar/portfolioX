@@ -7,6 +7,7 @@ import { RiGithubFill } from "@remixicon/react";
 const Content: React.FC = () => {
     return (
         <div>
+            {/* Hero */}
             <div>
                 <h1 className="text-center primary-font font-bold text-3.5xl tracking-tight leading-snug text-blue-10x mt-15">Hi there,<br/>Happy to have you.</h1>
                 <p className="text-center sub-font text-blueD-10x mt-5">I am a developer based in India.</p>
@@ -34,6 +35,7 @@ const Content: React.FC = () => {
                 <div className="sub-font font-medium text-lg text-[#EEE] leading-none bg-blueInk-8x py-6 text-center rounded-[20px] shadow-sh_Light mx-auto max-w-[312px]">Connect me</div>
             </div>
 
+            {/* Brief */}
             <div>
                 <div className="mt-15">
                     <h1 className="primary-font font-bold text-3.5xl tracking-tight leading-snug text-blue-10x">A brief on me</h1>
@@ -58,6 +60,7 @@ const Content: React.FC = () => {
                 </div>
             </div>
 
+            {/* Skill Set */}
             <div>
                 <div className="mt-15">
                     <h1 className="primary-font font-bold text-3.5xl tracking-tight leading-snug text-blue-10x">Skill Set</h1>
@@ -108,6 +111,7 @@ const Content: React.FC = () => {
                 </div>
             </div>
 
+            {/* Bits & Buds */}
             <div>
                 <div>
                     <div className="mt-15">
@@ -135,6 +139,16 @@ const Content: React.FC = () => {
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+
+            {/* Projects */}
+            <div>
+                <div className="mt-15">
+                    <h1 className="primary-font font-bold text-3.5xl tracking-tight leading-snug text-blue-10x">Things<br />I have built</h1>
+                </div>
+                <div className="mt-5">
+                    <p className="sub-font text-blueD-10x">These projects have taken days to complete. Don’t just view code but use and experience them.</p>
                 </div>
             </div>
         </div>

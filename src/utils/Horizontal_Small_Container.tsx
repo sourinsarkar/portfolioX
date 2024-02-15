@@ -1,5 +1,5 @@
 type contentProp = {
-    content: string
+    content?: string | number
 }   
 
 const HznlCtn: React.FC<contentProp> = ({ content }) => {
