@@ -145,7 +145,37 @@ const Content: React.FC = () => {
 
             {/* Projects */}
             <div>
-                <PrjShowCtn title
+                <div className="mt-15">
+                    <h1 className="primary-font font-bold text-3.5xl tracking-tight leading-snug text-blue-10x">Things<br />I have built</h1>
+                </div>
+                <div className="mt-5">
+                    <p className="sub-font text-blueD-10x">These projects have taken days to complete. Don’t just view code but use and experience them.</p>
+                </div>
+                <div className="space-y-8 mt-15">
+                    <PrjShowCtn
+                    title="Sourin Sarkar"
+                    description="A personal address on the web where people can make a visit to get insights about me."
+                    siteStatus="Live"
+                    siteLink="https://sourin.in"
+                    codeBaseLink="https://github.com/sourinsarkar/portfoliox"
+                    tags={["React", "TypeScript", "JavaScript", "Tailwind CSS"]} />
+                    
+                    <PrjShowCtn
+                    title="Fontground"
+                    description="A playground for designers and web developers to try and test various fonts."
+                    siteStatus="Live"
+                    siteLink="https://fontground.sourin.in"
+                    codeBaseLink="https://github.com/sourinsarkar/fontground"
+                    tags={["React", "TypeScript", "JavaScript", "Node JS", "Express JS", "Tailwind CSS"]} />
+
+                    <PrjShowCtn
+                    title="Phoenix"
+                    description="A search engine supercharged with an AI engine and built on a foundation of publicly available APIs."
+                    siteStatus=""
+                    siteLink="https://sourin.in"
+                    codeBaseLink="https://github.com/sourinsarkar/portfoliox"
+                    tags={["React", "TypeScript", "JavaScript", "Node JS", "Express JS", "MongoDB", "Tailwind CSS"]} />
+                </div>
             </div>
         </div>
    );
