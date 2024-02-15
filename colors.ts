@@ -10,5 +10,8 @@ export default {
     },
     blueInk: {
         '8x': '#0055ff',
-    }
+    },
+    green: {
+        '8x': '#0F9D58',
+    },
 };

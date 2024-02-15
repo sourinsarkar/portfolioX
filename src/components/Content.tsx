@@ -1,5 +1,6 @@
 import { ChatBubbleOvalLeftIcon } from "@heroicons/react/24/solid";
 import LotusImage from "../assets/images/lotus.png"
+import HznlCtn from "../utils/Horizontal_Small_Container";
 
 const Content: React.FC = () => {
     return (
@@ -62,10 +63,30 @@ const Content: React.FC = () => {
                 <div className="mt-5">
                     <p className="sub-font text-blueD-10x">These are the technologies and tools I am <span className="font-medium text-blue-10x">proficient</span> and have hands on experience of practicing them.</p>
                 </div>
-                <div>
-                    <div><h3></h3></div>
-                    <div>
-                        
+                <div className="my-6">
+                    <div className="mt-7 mb-5"><h3 className="primary-font font-bold text-xl tracking-tight leading-snug text-blueInk-8x">Programming languages</h3></div>
+                    <div className="flex flex-wrap space-x-2.5 space-y-2.5">
+                        <HznlCtn skill="C++" />
+                        <HznlCtn skill="TypeScript" />
+                        <HznlCtn skill="JavaScript" />
+                        <HznlCtn skill="SQL" />
+                        <HznlCtn skill="HTML" />
+                        <HznlCtn skill="CSS" />
+                    </div>
+                    <div className="mt-7 mb-5"><h3 className="primary-font font-bold text-xl tracking-tight leading-snug text-green-8x">Software and technologies</h3></div>
+                    <div className="flex flex-wrap space-x-2.5 space-y-2.5">
+                        <HznlCtn skill="React.js" />
+                        <HznlCtn skill="Node.js" />
+                        <HznlCtn skill="Express.js" />
+                        <HznlCtn skill="MongoDB" />
+                        <HznlCtn skill="Mongoose" />
+                        <HznlCtn skill="Git" />
+                        <HznlCtn skill="GitHub" />
+                        <HznlCtn skill="MySQL" />
+                        <HznlCtn skill="Postman" />
+                        <HznlCtn skill="Linux" />
+                        <HznlCtn skill="Figma" />
+                        <HznlCtn skill="Vercel" />
                     </div>
                 </div>
             </div>
