@@ -31,7 +31,7 @@ const PrjShowCtn: React.FC<PrjShowCtnProp> = ({title, description, siteStatus, s
                     <a href={siteLink}>
                         <div className="flex items-center space-x-3">
                             <h4 className="text-sm sub-font leading-none px-3 py-1.5 bg-blueInk-8x rounded-full max-w-fit text-[#EEE] space-x-1 flex items-center">Take me there<span><ChevronRightIcon className="w-5 h-6" /></span></h4>
-                            <a href={codeBaseLink}><RiGithubFill size={28} className="text-blue-10x" /></a>
+                            {codeBaseLink && <a href={codeBaseLink}><RiGithubFill size={28} className="text-blue-10x" /></a>}
                         </div>
                     </a>
                 </div>
