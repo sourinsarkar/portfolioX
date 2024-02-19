@@ -112,7 +112,7 @@ const Content: React.FC = () => {
                 </div>
             </div>
 
-            {/* Bits & Buds */}
+            {/* Contributions */}
             <div>
                 <div>
                     <div className="mt-15">

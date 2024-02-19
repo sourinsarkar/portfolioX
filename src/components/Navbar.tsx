@@ -3,6 +3,7 @@ import SourinIcon from "../assets/images/sourin_icon_svg.svg"
 import DevBlueIcon from "../assets/icons/dev_blue_icon_svg.svg"
 import DevGreenIcon from "../assets/icons/dev_green_icon_svg.svg"
 import DevPinkIcon from "../assets/icons/dev_pink_icon_svg.svg"
+import { RiGithubFill, RiTwitterFill } from "@remixicon/react";
 
 // Each element has overall height of 28px.
 
@@ -30,9 +31,9 @@ const Navbar: React.FC = () => {
             </div>
 
             {/* Dropdown */}
-            <div>
-                <div>
-                    <ul className="primary-font font-bold text-2xl tracking-tight leading-snug text-blue-10x">
+            <div className="space-y-8 bg-gray-300">
+                <div className="mt-8">
+                    <ul className="primary-font font-bold text-2xl tracking-tight leading-none text-blue-10x space-y-4">
                         <li><a href="#Projects">Projects</a></li>
                         <li><a href="#Skills">Skill Set</a></li>
                         <li><a href="#About">A brief on me</a></li>
@@ -40,30 +41,39 @@ const Navbar: React.FC = () => {
                     </ul>
                 </div>
                 <div>
-                    <p className="text-sm sub-font">Explore these</p>
-                    <ul className="space-y-4">
-                        <li className="flex">
-                            <div className="flex justify-center items-start"><img src={DevBlueIcon} alt="DevBlueIcon" className="w-7 h-7" /></div>
+                    <p className="text-sm sub-font text-blueInk-8x font-medium">Explore these</p>
+                    <ul className="space-y-4 mt-5">
+                        <li className="flex gap-x-2.5">
+                            <img src={DevBlueIcon} alt="DevBlueIcon" className="w-7 h-7" />
                             <div>
-                                <h4 className="primary-font font-semibold text-xl tracking-tight leading-snug text-blue-10x">Currency</h4>
-                                <p className="text-sm sub-font">A tool that you’ll need handy whenever you’re on trips to different country.</p>
+                                <h4 className="primary-font font-semibold text-xl tracking-tight leading-sung text-blue-10x">Currency</h4>
+                                <p className="text-sm sub-font mt-2">A tool that you’ll need handy whenever you’re on trips to different country.</p>
                             </div>
                         </li>
-                        <li className="flex">
-                            <div className="flex justify-center items-start"><img src={DevGreenIcon} alt="DevGreenIcon" className="w-7 h-7" /></div>
+                        <li className="flex gap-x-2.5">
+                            <img src={DevGreenIcon} alt="DevGreenIcon" className="w-7 h-7" />
                             <div>
-                                <h4 className="primary-font font-semibold text-xl tracking-tight leading-snug text-blue-10x">Fontground</h4>
-                                <p className="text-sm sub-font">A creative platform for designers to try and test different fonts.</p>
+                                <h4 className="primary-font font-semibold text-xl tracking-tight leading-sung text-blue-10x">Fontground</h4>
+                                <p className="text-sm sub-font mt-2">A creative platform for designers to try and test different fonts.</p>
                             </div>
                         </li>
-                        <li className="flex">
-                            <div className="flex justify-center items-start"><img src={DevPinkIcon} alt="DevPinkIcon" className="w-7 h-7" /></div>
+                        <li className="flex gap-x-2.5">
+                            <img src={DevPinkIcon} alt="DevPinkIcon" className="w-7 h-7" />
                             <div>
-                                <h4 className="primary-font font-semibold text-xl tracking-tight leading-snug text-blue-10x">Passwords</h4>
-                                <p className="text-sm sub-font">Create, save & use strong passwords on the go. Browser extension available.</p>
+                                <h4 className="primary-font font-semibold text-xl tracking-tight leading-sung text-blue-10x">Passwords</h4>
+                                <p className="text-sm sub-font mt-2">Create, save & use strong passwords on the go. Browser extension available.</p>
                             </div>
                         </li>
                     </ul>
+                </div>
+                <div className="flex items-center justify-between">
+                    <div className="flex items-center space-x-3.5">
+                        <a href="https://x.com/sourin_inc"><RiTwitterFill className="w-7 h-7 text-blueD-10x" /></a>
+                        <a href="https://github.com/sourinsarkar"><RiGithubFill className="w-7 h-7 text-blueD-10x" /></a>
+                    </div>
+                    <div>
+                        <div className="flex items-center"><a href="#" className="text-sm sub-font leading-none px-3.5 py-2 bg-blueD-10x rounded-lg text-white">Resume</a></div>
+                    </div>
                 </div>
             </div>
         </div>
