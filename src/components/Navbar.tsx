@@ -1,3 +1,4 @@
+import { useState } from "react";
 import { Bars2Icon } from "@heroicons/react/24/outline";
 import SourinIcon from "../assets/images/sourin_icon_svg.svg"
 import DevBlueIcon from "../assets/icons/dev_blue_icon_svg.svg"
@@ -8,6 +9,13 @@ import { RiGithubFill, RiTwitterFill } from "@remixicon/react";
 // Each element has overall height of 28px.
 
 const Navbar: React.FC = () => {
+    // const [isHidden, setIsHidden] = useState(true);
+    const [isVisible, setIsVisible] = useState(true);
+
+    const toggleVisibility = () => {
+        setIsVisible(!isVisible);
+    }
+    
     return (
         <div className="my-6 leading-none">
             <div className="flex justify-between items-center">
@@ -26,12 +34,12 @@ const Navbar: React.FC = () => {
 
                 <div>
                     <button hidden>Contact me</button>
-                    <div className="px-3 py-1 rounded-full bg-blueL-1x"><Bars2Icon className="w-6 h-6 text-blue-10x"/></div>
+                    <div className="px-3 py-1 rounded-full bg-blueL-1x" onClick={toggleVisibility}><Bars2Icon className="w-6 h-6 text-blue-10x"/></div>
                 </div>
             </div>
 
             {/* Dropdown */}
-            <div className="space-y-8 bg-gray-300">
+            {isVisible && <div className="space-y-8 bg-gray-300">
                 <div className="mt-8">
                     <ul className="primary-font font-bold text-2xl tracking-tight leading-none text-blue-10x space-y-4">
                         <li><a href="#Projects">Projects</a></li>
@@ -75,7 +83,7 @@ const Navbar: React.FC = () => {
                         <div className="flex items-center"><a href="#" className="text-sm sub-font leading-none px-3.5 py-2 bg-blueD-10x rounded-lg text-white">Resume</a></div>
                     </div>
                 </div>
-            </div>
+            </div>}
         </div>
     );
 }
