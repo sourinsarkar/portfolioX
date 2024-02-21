@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
         <div className="my-6 leading-none">
             <div className="flex justify-between items-center">
                 <div>
-                    <div><img src={SourinIcon} alt="Sourin Logo" className="w-8 h-8" /></div>
+                    <div><img src={SourinIcon} alt="Sourin Logo" className="w-8 h-8 something" /></div>
                 </div>
 
                 <div hidden className="mid-lg:block">
@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
             </div>
 
             {/* Dropdown */}
-            {isVisible && <div className="space-y-8 bg-gray-300">
+            {isVisible && <div id="ham-dropdown" className={`space-y-8 bg-gray-300 fade-in ${isVisible ? 'visible' : ''}`}>
                 <div className="mt-8">
                     <ul className="primary-font font-bold text-2xl tracking-tight leading-none text-blue-10x space-y-4">
                         <li><a href="#Projects">Projects</a></li>
