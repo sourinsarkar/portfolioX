@@ -1,11 +1,14 @@
 import Home from "./layouts/Home"
 import "./App.css"
+import { VisibilityProvider } from "./context/VisibilityProvider";
 
 function App() {
 
   return (
     <>
-    <Home />
+    <VisibilityProvider>
+      <Home />
+    </VisibilityProvider>
     </>
   );
 }

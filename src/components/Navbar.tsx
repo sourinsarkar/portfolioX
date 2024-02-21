@@ -1,20 +1,16 @@
-import { useState } from "react";
+import { useContext } from "react";
 import { Bars2Icon } from "@heroicons/react/24/outline";
 import SourinIcon from "../assets/images/sourin_icon_svg.svg"
 import DevBlueIcon from "../assets/icons/dev_blue_icon_svg.svg"
 import DevGreenIcon from "../assets/icons/dev_green_icon_svg.svg"
 import DevPinkIcon from "../assets/icons/dev_pink_icon_svg.svg"
 import { RiGithubFill, RiTwitterFill } from "@remixicon/react";
+import { VisibilityContext } from "../context/VisibilityContext";
 
 // Each element has overall height of 28px.
 
 const Navbar: React.FC = () => {
-    // const [isHidden, setIsHidden] = useState(true);
-    const [isVisible, setIsVisible] = useState(true);
-
-    const toggleVisibility = () => {
-        setIsVisible(!isVisible);
-    }
+    const {isVisible, toggleVisibility} = useContext(VisibilityContext);
     
     return (
         <div className="my-6 leading-none">
