@@ -35,7 +35,7 @@ const Navbar: React.FC = () => {
             </div>
 
             {/* Dropdown */}
-            {isVisible && <div id="ham-dropdown" className={`space-y-8 bg-gray-300 fade-in ${isVisible ? 'visible' : ''}`}>
+            {isVisible && <div id="ham-dropdown" className="space-y-8 bg-gray-300">
                 <div className="mt-8">
                     <ul className="primary-font font-bold text-2xl tracking-tight leading-none text-blue-10x space-y-4">
                         <li><a href="#Projects">Projects</a></li>
