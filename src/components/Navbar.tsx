@@ -8,6 +8,7 @@ import { RiGithubFill, RiTwitterFill } from "@remixicon/react";
 import { VisibilityContext } from "../context/VisibilityContext";
 
 // Each element has overall height of 28px.
+// Dropdown implemented without routes.
 
 const Navbar: React.FC = () => {
     const {isVisible, toggleVisibility} = useContext(VisibilityContext);
