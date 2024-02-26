@@ -1,6 +1,6 @@
 import { createContext } from "react";
 
 export const VisibilityContext = createContext({
-  isVisible: false,
+  isVisible: true,
   toggleVisibility: () => {},
 });
