@@ -39,10 +39,10 @@ const Navbar: React.FC = () => {
             {isVisible && <div id="ham-dropdown" className="space-y-8">
                 <div className="mt-8">
                     <ul className="primary-font font-bold text-2xl tracking-tight leading-none text-blue-10x space-y-4">
-                        <li><a href="#Projects">Projects</a></li>
-                        <li><a href="#Skills">Skill Set</a></li>
-                        <li><a href="#About">A brief on me</a></li>
-                        <li><a href="#Contributions">Contributions</a></li>
+                        <li><a href="#project_section">Projects</a></li>
+                        <li><a href="#skill_section">Skill Set</a></li>
+                        <li><a href="#brief_section">A brief on me</a></li>
+                        <li><a href="#contribution_section">Contributions</a></li>
                     </ul>
                 </div>
                 <div>

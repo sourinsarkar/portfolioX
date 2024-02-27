@@ -41,7 +41,7 @@ const Content: React.FC = () => {
                 </div>
 
                 {/* Brief */}
-                <div>
+                <div id="brief_section">
                     <div className="mt-15">
                         <h1 className="primary-font font-bold text-3.5xl tracking-tight leading-snug text-blue-10x">A brief on me</h1>
                     </div>
@@ -66,7 +66,7 @@ const Content: React.FC = () => {
                 </div>
 
                 {/* Skill Set */}
-                <div>
+                <div id="skill_section">
                     <div className="mt-15">
                         <h1 className="primary-font font-bold text-3.5xl tracking-tight leading-snug text-blue-10x">Skill Set</h1>
                     </div>
@@ -117,7 +117,7 @@ const Content: React.FC = () => {
                 </div>
 
                 {/* Contributions */}
-                <div>
+                <div id="contribution_section">
                     <div>
                         <div className="mt-15">
                             <img src={HaraDharaImage} alt="Hara Dhara" className="w-auto h-12 m-auto" />
@@ -148,7 +148,7 @@ const Content: React.FC = () => {
                 </div>
 
                 {/* Projects */}
-                <div>
+                <div id="project_section">
                     <div className="mt-15">
                         <h1 className="primary-font font-bold text-3.5xl tracking-tight leading-snug text-blue-10x">Things<br />I have built</h1>
                     </div>
