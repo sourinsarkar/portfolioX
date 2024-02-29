@@ -83,7 +83,7 @@ const Navbar: React.FC = () => {
                         <a href="https://github.com/sourinsarkar"><RiGithubFill className="w-7 h-7 text-blueD-10x" /></a>
                     </div>
                     <div>
-                        <div className="flex items-center"><a href="#" className="text-sm sub-font leading-none px-3.5 py-2 bg-blueD-10x rounded-lg text-white">Resume</a></div>
+                        <div className="flex items-center"><a href="../assets/resume/Sourin Sarkar Resume.pdf" className="text-sm sub-font leading-none px-3.5 py-2 bg-blueD-10x rounded-lg text-white">Resume</a></div>
                     </div>
                 </div>
             </div>}
