@@ -6,12 +6,19 @@ import DevGreenIcon from "../assets/icons/dev_green_icon_svg.svg"
 import DevPinkIcon from "../assets/icons/dev_pink_icon_svg.svg"
 import { RiGithubFill, RiTwitterFill } from "@remixicon/react";
 import { VisibilityContext } from "../context/VisibilityContext";
+// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 // Each element has overall height of 28px.
 // Dropdown implemented without routes.
 
 const Navbar: React.FC = () => {
-    const {isVisible, toggleVisibility} = useContext(VisibilityContext);
+    const visibilityContext = useContext(VisibilityContext);
+
+    if(!visibilityContext) {
+        throw new Error("Navbar must be used within a VisibilityProvider");
+    }
+
+    const {isVisible, toggleVisibility} = visibilityContext;
     
     return (
         <div className="my-6 leading-none">
@@ -39,10 +46,10 @@ const Navbar: React.FC = () => {
             {isVisible && <div id="ham-dropdown" className="space-y-8">
                 <div className="mt-8">
                     <ul className="primary-font font-bold text-2xl tracking-tight leading-none text-blue-10x space-y-4">
-                        <li><a href="#project_section">Projects</a></li>
-                        <li><a href="#skill_section">Skill Set</a></li>
-                        <li><a href="#brief_section">A brief on me</a></li>
-                        <li><a href="#contribution_section">Contributions</a></li>
+                        <li onClick={toggleVisibility}><a href="/Content#project_section">Projects</a></li>
+                        <li onClick={toggleVisibility}><a href="/Content#skill_section">Skill Set</a></li>
+                        <li onClick={toggleVisibility}><a href="/Content#brief_section">A brief on me</a></li>
+                        <li onClick={toggleVisibility}><a href="/Content#contribution_section">Contributions</a></li>
                     </ul>
                 </div>
                 <div>

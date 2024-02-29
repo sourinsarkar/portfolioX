@@ -1,6 +1,10 @@
 import { createContext } from "react";
 
-export const VisibilityContext = createContext({
-  isVisible: true,
-  toggleVisibility: () => {},
-});
+interface VisibilityContextProps {
+  isVisible: boolean;
+  // hide: () => void;
+  // show: () => void;
+  toggleVisibility: () => void;
+}
+
+export const VisibilityContext = createContext<VisibilityContextProps | undefined>(undefined);
