@@ -147,7 +147,7 @@ const Content: React.FC = () => {
                             <h3 className="text-center primary-font font-extrabold text-8xl tracking-tight leading-none text-blue-10x">328</h3>
                             <div className="mx-auto mt-3">
                                 <div>
-                                    <a href="https://github.com/sourinsakar" className="text-sm sub-font leading-none px-3.5 py-2 bg-blue-10x rounded-full max-w-fit text-[#EEE] space-x-1 flex items-center">Take me to Github <span><ChevronRightIcon className="w-5 h-6" /></span></a>
+                                    <a href="https://github.com/sourinsarkar" className="text-sm sub-font leading-none px-3.5 py-2 bg-blue-10x rounded-full max-w-fit text-[#EEE] space-x-1 flex items-center">Take me to Github <span><ChevronRightIcon className="w-5 h-6" /></span></a>
                                 </div>
                             </div>
                         </div>
