@@ -6,10 +6,9 @@ import DevGreenIcon from "../assets/icons/dev_green_icon_svg.svg"
 import DevPinkIcon from "../assets/icons/dev_pink_icon_svg.svg"
 import { RiGithubFill, RiTwitterFill } from "@remixicon/react";
 import { VisibilityContext } from "../context/VisibilityContext";
-// import { BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom';
 
 // Each element has overall height of 28px.
-// Dropdown implemented without routes.
+// Dropdown implemented with routes.
 
 const Navbar: React.FC = () => {
     const visibilityContext = useContext(VisibilityContext);
