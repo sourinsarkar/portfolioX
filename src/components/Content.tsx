@@ -44,7 +44,7 @@ const Content: React.FC = () => {
                         </div>
                     </div>
                     <div><img src={LotusImage} alt="Lotus" className="w-45 h-45 mx-auto my-5" /></div>
-                    <div className="sub-font font-medium text-lg text-[#EEE] leading-none bg-blueInk-8x py-6 text-center rounded-[20px] shadow-sh_Light mx-auto max-w-[312px]">Connect me</div>
+                    <a href="mailto:Sourin Sarkar <work@sourin.in>"><div className="sub-font font-medium text-lg text-[#EEE] leading-none bg-blueInk-8x py-6 text-center rounded-[20px] shadow-sh_Light mx-auto max-w-[312px]">Connect me</div></a>
                 </div>
 
                 {/* Brief */}

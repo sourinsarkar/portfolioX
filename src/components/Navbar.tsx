@@ -9,7 +9,7 @@ import { VisibilityContext } from "../context/VisibilityContext";
 
 // Each element has overall height of 28px.
 // Dropdown implemented with routes.
-
+    
 const Navbar: React.FC = () => {
     const visibilityContext = useContext(VisibilityContext);
 
@@ -45,10 +45,10 @@ const Navbar: React.FC = () => {
             {isVisible && <div id="ham-dropdown" className="space-y-8">
                 <div className="mt-8">
                     <ul className="primary-font font-bold text-2xl tracking-tight leading-none text-blue-10x space-y-4">
-                        <li onClick={toggleVisibility}><a href="/Content#project_section">Projects</a></li>
-                        <li onClick={toggleVisibility}><a href="/Content#skill_section">Skill Set</a></li>
-                        <li onClick={toggleVisibility}><a href="/Content#brief_section">A brief on me</a></li>
-                        <li onClick={toggleVisibility}><a href="/Content#contribution_section">Contributions</a></li>
+                        <li onClick={toggleVisibility}><a href="./Content#project_section">Projects</a></li>
+                        <li onClick={toggleVisibility}><a href="./Content#skill_section">Skill Set</a></li>
+                        <li onClick={toggleVisibility}><a href="./Content#brief_section">A brief on me</a></li>
+                        <li onClick={toggleVisibility}><a href="./Content#contribution_section">Contributions</a></li>
                     </ul>
                 </div>
                 <div>
