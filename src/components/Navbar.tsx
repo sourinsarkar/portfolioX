@@ -54,26 +54,32 @@ const Navbar: React.FC = () => {
                 <div>
                     <p className="text-sm sub-font text-blueInk-8x font-medium">Explore these</p>
                     <ul className="space-y-4 mt-5">
-                        <li className="flex gap-x-2.5">
-                            <img src={DevBlueIcon} alt="DevBlueIcon" className="w-7 h-7" />
-                            <div>
-                                <h4 className="primary-font font-semibold text-xl tracking-tight leading-sung text-blue-10x">Currency</h4>
-                                <p className="text-sm sub-font mt-2">A tool that you’ll need handy whenever you’re on trips to different country.</p>
-                            </div>
+                        <li>
+                            <a className="flex gap-x-2.5" href="" onClick={(event) => event.preventDefault()}>
+                                <img src={DevBlueIcon} alt="DevBlueIcon" className="w-7 h-7" />
+                                <div>
+                                    <h4 className="primary-font font-semibold text-xl tracking-tight leading-sung text-blue-10x flex items-center">Currency <span className="text-xs font-normal px-2 py-1.5 leading-none bg-blueD-10x rounded-full text-gray-300 ml-1.5">Coming soon</span></h4>
+                                    <p className="text-sm sub-font mt-2">A tool that you’ll need handy whenever you’re on trips to different country.</p>
+                                </div>
+                            </a>
                         </li>
-                        <li className="flex gap-x-2.5">
-                            <img src={DevGreenIcon} alt="DevGreenIcon" className="w-7 h-7" />
-                            <div>
-                                <h4 className="primary-font font-semibold text-xl tracking-tight leading-sung text-blue-10x">Fontground</h4>
-                                <p className="text-sm sub-font mt-2">A creative platform for designers to try and test different fonts.</p>
-                            </div>
+                        <li>
+                            <a className="flex gap-x-2.5" href="https://fontground.sourin.in">
+                                <img src={DevGreenIcon} alt="DevGreenIcon" className="w-7 h-7" />
+                                <div>
+                                    <h4 className="primary-font font-semibold text-xl tracking-tight leading-sung text-blue-10x">Fontground</h4>
+                                    <p className="text-sm sub-font mt-2">A creative platform for designers to try and test different fonts.</p>
+                                </div>
+                            </a>
                         </li>
-                        <li className="flex gap-x-2.5">
-                            <img src={DevPinkIcon} alt="DevPinkIcon" className="w-7 h-7" />
-                            <div>
-                                <h4 className="primary-font font-semibold text-xl tracking-tight leading-sung text-blue-10x">Passwords</h4>
-                                <p className="text-sm sub-font mt-2">Create, save & use strong passwords on the go. Browser extension available.</p>
-                            </div>
+                        <li>
+                            <a className="flex gap-x-2.5" href="https://safepass.sourin.in">
+                                <img src={DevPinkIcon} alt="DevPinkIcon" className="w-7 h-7" />
+                                <div>
+                                    <h4 className="primary-font font-semibold text-xl tracking-tight leading-sung text-blue-10x">Passwords</h4>
+                                    <p className="text-sm sub-font mt-2">Create, save & use strong passwords on the go. Browser extension available.</p>
+                                </div>
+                            </a>
                         </li>
                     </ul>
                 </div>
