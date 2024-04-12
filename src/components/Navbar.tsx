@@ -5,7 +5,7 @@ import DevBlueIcon from "../assets/icons/dev_blue_icon_svg.svg"
 import DevGreenIcon from "../assets/icons/dev_green_icon_svg.svg"
 import DevPinkIcon from "../assets/icons/dev_pink_icon_svg.svg"
 import { RiGithubFill, RiTwitterFill } from "@remixicon/react";
-import { VisibilityContext } from "../context/VisibilityContext";
+import { VisibilityContext } from "../context/VisibilityContext"
 
 // Each element has overall height of 28px.
 // Dropdown implemented with routes.
@@ -45,10 +45,10 @@ const Navbar: React.FC = () => {
             {isVisible && <div id="ham-dropdown" className="space-y-8">
                 <div className="mt-8">
                     <ul className="primary-font font-bold text-2xl tracking-tight leading-none text-blue-10x space-y-4">
-                        <li onClick={toggleVisibility}><a href="./Content#project_section">Projects</a></li>
-                        <li onClick={toggleVisibility}><a href="./Content#skill_section">Skill Set</a></li>
-                        <li onClick={toggleVisibility}><a href="./Content#brief_section">A brief on me</a></li>
-                        <li onClick={toggleVisibility}><a href="./Content#contribution_section">Contributions</a></li>
+                        <li><a href="/">Projects</a></li>
+                        <li><a href="/">Skill Set</a></li>
+                        <li><a href="/">A brief on me</a></li>
+                        <li><a href="/">Contributions</a></li>
                     </ul>
                 </div>
                 <div>

@@ -92,7 +92,9 @@ const Content: React.FC = () => {
                         </div>
                         <div className="mt-7 mb-5"><h3 className="primary-font font-bold text-xl tracking-tight leading-snug text-green-8x">Software and technologies</h3></div>
                         <div className="flex flex-wrap gap-2">
+                            <HznlCtn content="Next.js" />
                             <HznlCtn content="React.js" />
+                            <HznlCtn content="Turborepo" />
                             <HznlCtn content="Node.js" />
                             <HznlCtn content="Express.js" />
                             <HznlCtn content="MongoDB" />
