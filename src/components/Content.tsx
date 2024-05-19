@@ -97,6 +97,8 @@ const Content: React.FC = () => {
                             <HznlCtn content="Turborepo" />
                             <HznlCtn content="Node.js" />
                             <HznlCtn content="Express.js" />
+                            <HznlCtn content="Postgres" />
+                            <HznlCtn content="Prisma" />
                             <HznlCtn content="MongoDB" />
                             <HznlCtn content="Mongoose" />
                             <HznlCtn content="Git" />
