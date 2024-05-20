@@ -26,14 +26,14 @@ const Navbar: React.FC = () => {
                     <div><img src={SourinIcon} alt="Sourin Logo" className="w-8 h-8 something" /></div>
                 </div>
 
-                <div hidden className="mid-lg:block">
+                {/* <div hidden className="mid-lg:block">
                     <ul className="flex">
                         <li className="hover:bg-blueL-1x hover:font-medium px-5 py-2">A brief on me</li>
                         <li className="hover:bg-blueL-1x hover:font-medium px-5 py-2">Skill Set</li>
                         <li className="hover:bg-blueL-1x hover:font-medium px-5 py-2">Bits & Buds</li>
                         <li className="hover:bg-blueL-1x hover:font-medium px-5 py-2">Things I have built</li>
                     </ul>
-                </div>
+                </div> */}
 
                 <div>
                     <button hidden>Contact me</button>
