@@ -135,7 +135,7 @@ const Content: React.FC = () => {
                             <p className="text-center sub-font text-blueD-10x mt-5">An initiative taken on a personal capacity to plant a plant.</p>
                         </div>
                         <div className="flex flex-col mt-12">
-                            <h3 className="text-center primary-font font-extrabold text-8xl tracking-tight leading-none text-blue-10x">133</h3>
+                            <h3 className="text-center primary-font font-extrabold text-8xl tracking-tight leading-none text-blue-10x">141</h3>
                             <div className="mx-auto mt-3"><HznlCtn content="Planted till date." /></div>
                         </div>
                     </div>
@@ -148,7 +148,7 @@ const Content: React.FC = () => {
                             <p className="text-center sub-font text-blueD-10x mt-5">This year’s total public contributions on GitHub.</p>
                         </div>
                         <div className="flex flex-col mt-12">
-                            <h3 className="text-center primary-font font-extrabold text-8xl tracking-tight leading-none text-blue-10x">328</h3>
+                            <h3 className="text-center primary-font font-extrabold text-8xl tracking-tight leading-none text-blue-10x">793</h3>
                             <div className="mx-auto mt-3">
                                 <div>
                                     <a href="https://github.com/sourinsarkar" className="text-sm sub-font leading-none px-3.5 py-2 bg-blue-10x rounded-full max-w-fit text-[#EEE] space-x-1 flex items-center">Take me to Github <span><ChevronRightIcon className="w-5 h-6" /></span></a>
