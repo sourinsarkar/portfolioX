@@ -182,6 +182,22 @@ const Content: React.FC = () => {
                         siteLink="https://fontground.sourin.in"
                         codeBaseLink="https://github.com/sourinsarkar/fontground"
                         tags={["React", "TypeScript", "JavaScript", "Node JS", "Express JS", "Tailwind CSS"]} />
+                        
+                        <PrjShowCtn
+                        title="Safepass"
+                        description="A password generator to secure your files."
+                        siteStatus="Live"
+                        siteLink="https://safepass.sourin.in"
+                        codeBaseLink="https://github.com/sourinsarkar/safepass"
+                        tags={["React", "TypeScript", "Tailwind CSS"]} />
+                        
+                        <PrjShowCtn
+                        title="Todo App"
+                        description="A clean todo list app built to manage your day to day tasks."
+                        siteStatus="Live"
+                        siteLink="https://todo.sourin.in"
+                        codeBaseLink="https://github.com/sourinsarkar/todo"
+                        tags={["Next JS", "TypeScript", "Tailwind CSS", "Vercel"]} />
 
                         <PrjShowCtn
                         title="Phoenix"
